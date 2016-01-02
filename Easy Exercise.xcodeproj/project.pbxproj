@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC89A6771C3844EC006538A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC89A6761C3844EC006538A8 /* AppDelegate.swift */; };
+		EC89A6791C3844EC006538A8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC89A6781C3844EC006538A8 /* ViewController.swift */; };
+		EC89A67C1C3844EC006538A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC89A67A1C3844EC006538A8 /* Main.storyboard */; };
+		EC89A67E1C3844EC006538A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC89A67D1C3844EC006538A8 /* Assets.xcassets */; };
+		EC89A6811C3844EC006538A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC89A67F1C3844EC006538A8 /* LaunchScreen.storyboard */; };
+		EC89A68C1C3844EC006538A8 /* Easy_ExerciseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC89A68B1C3844EC006538A8 /* Easy_ExerciseTests.swift */; };
+		EC89A6971C3844ED006538A8 /* Easy_ExerciseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC89A6961C3844ED006538A8 /* Easy_ExerciseUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC89A6881C3844EC006538A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC89A66B1C3844EC006538A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC89A6721C3844EC006538A8;
+			remoteInfo = "Easy Exercise";
+		};
+		EC89A6931C3844EC006538A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC89A66B1C3844EC006538A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC89A6721C3844EC006538A8;
+			remoteInfo = "Easy Exercise";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC89A6731C3844EC006538A8 /* Easy Exercise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Easy Exercise.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC89A6761C3844EC006538A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EC89A6781C3844EC006538A8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EC89A67B1C3844EC006538A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC89A67D1C3844EC006538A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC89A6801C3844EC006538A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EC89A6821C3844EC006538A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC89A6871C3844EC006538A8 /* Easy ExerciseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Easy ExerciseTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC89A68B1C3844EC006538A8 /* Easy_ExerciseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Easy_ExerciseTests.swift; sourceTree = "<group>"; };
+		EC89A68D1C3844EC006538A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC89A6921C3844EC006538A8 /* Easy ExerciseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Easy ExerciseUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC89A6961C3844ED006538A8 /* Easy_ExerciseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Easy_ExerciseUITests.swift; sourceTree = "<group>"; };
+		EC89A6981C3844ED006538A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC89A6701C3844EC006538A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC89A6841C3844EC006538A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC89A68F1C3844EC006538A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC89A66A1C3844EC006538A8 = {
+			isa = PBXGroup;
+			children = (
+				EC89A6751C3844EC006538A8 /* Easy Exercise */,
+				EC89A68A1C3844EC006538A8 /* Easy ExerciseTests */,
+				EC89A6951C3844ED006538A8 /* Easy ExerciseUITests */,
+				EC89A6741C3844EC006538A8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC89A6741C3844EC006538A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC89A6731C3844EC006538A8 /* Easy Exercise.app */,
+				EC89A6871C3844EC006538A8 /* Easy ExerciseTests.xctest */,
+				EC89A6921C3844EC006538A8 /* Easy ExerciseUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC89A6751C3844EC006538A8 /* Easy Exercise */ = {
+			isa = PBXGroup;
+			children = (
+				EC89A6761C3844EC006538A8 /* AppDelegate.swift */,
+				EC89A6781C3844EC006538A8 /* ViewController.swift */,
+				EC89A67A1C3844EC006538A8 /* Main.storyboard */,
+				EC89A67D1C3844EC006538A8 /* Assets.xcassets */,
+				EC89A67F1C3844EC006538A8 /* LaunchScreen.storyboard */,
+				EC89A6821C3844EC006538A8 /* Info.plist */,
+			);
+			path = "Easy Exercise";
+			sourceTree = "<group>";
+		};
+		EC89A68A1C3844EC006538A8 /* Easy ExerciseTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC89A68B1C3844EC006538A8 /* Easy_ExerciseTests.swift */,
+				EC89A68D1C3844EC006538A8 /* Info.plist */,
+			);
+			path = "Easy ExerciseTests";
+			sourceTree = "<group>";
+		};
+		EC89A6951C3844ED006538A8 /* Easy ExerciseUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EC89A6961C3844ED006538A8 /* Easy_ExerciseUITests.swift */,
+				EC89A6981C3844ED006538A8 /* Info.plist */,
+			);
+			path = "Easy ExerciseUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC89A6721C3844EC006538A8 /* Easy Exercise */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC89A69B1C3844ED006538A8 /* Build configuration list for PBXNativeTarget "Easy Exercise" */;
+			buildPhases = (
+				EC89A66F1C3844EC006538A8 /* Sources */,
+				EC89A6701C3844EC006538A8 /* Frameworks */,
+				EC89A6711C3844EC006538A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Easy Exercise";
+			productName = "Easy Exercise";
+			productReference = EC89A6731C3844EC006538A8 /* Easy Exercise.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC89A6861C3844EC006538A8 /* Easy ExerciseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC89A69E1C3844ED006538A8 /* Build configuration list for PBXNativeTarget "Easy ExerciseTests" */;
+			buildPhases = (
+				EC89A6831C3844EC006538A8 /* Sources */,
+				EC89A6841C3844EC006538A8 /* Frameworks */,
+				EC89A6851C3844EC006538A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC89A6891C3844EC006538A8 /* PBXTargetDependency */,
+			);
+			name = "Easy ExerciseTests";
+			productName = "Easy ExerciseTests";
+			productReference = EC89A6871C3844EC006538A8 /* Easy ExerciseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EC89A6911C3844EC006538A8 /* Easy ExerciseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC89A6A11C3844ED006538A8 /* Build configuration list for PBXNativeTarget "Easy ExerciseUITests" */;
+			buildPhases = (
+				EC89A68E1C3844EC006538A8 /* Sources */,
+				EC89A68F1C3844EC006538A8 /* Frameworks */,
+				EC89A6901C3844EC006538A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC89A6941C3844EC006538A8 /* PBXTargetDependency */,
+			);
+			name = "Easy ExerciseUITests";
+			productName = "Easy ExerciseUITests";
+			productReference = EC89A6921C3844EC006538A8 /* Easy ExerciseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC89A66B1C3844EC006538A8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = datomi;
+				TargetAttributes = {
+					EC89A6721C3844EC006538A8 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = BLPP5RE6MN;
+					};
+					EC89A6861C3844EC006538A8 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = BLPP5RE6MN;
+						TestTargetID = EC89A6721C3844EC006538A8;
+					};
+					EC89A6911C3844EC006538A8 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = BLPP5RE6MN;
+						TestTargetID = EC89A6721C3844EC006538A8;
+					};
+				};
+			};
+			buildConfigurationList = EC89A66E1C3844EC006538A8 /* Build configuration list for PBXProject "Easy Exercise" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC89A66A1C3844EC006538A8;
+			productRefGroup = EC89A6741C3844EC006538A8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC89A6721C3844EC006538A8 /* Easy Exercise */,
+				EC89A6861C3844EC006538A8 /* Easy ExerciseTests */,
+				EC89A6911C3844EC006538A8 /* Easy ExerciseUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC89A6711C3844EC006538A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC89A6811C3844EC006538A8 /* LaunchScreen.storyboard in Resources */,
+				EC89A67E1C3844EC006538A8 /* Assets.xcassets in Resources */,
+				EC89A67C1C3844EC006538A8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC89A6851C3844EC006538A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC89A6901C3844EC006538A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC89A66F1C3844EC006538A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC89A6791C3844EC006538A8 /* ViewController.swift in Sources */,
+				EC89A6771C3844EC006538A8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC89A6831C3844EC006538A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC89A68C1C3844EC006538A8 /* Easy_ExerciseTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC89A68E1C3844EC006538A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC89A6971C3844ED006538A8 /* Easy_ExerciseUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC89A6891C3844EC006538A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC89A6721C3844EC006538A8 /* Easy Exercise */;
+			targetProxy = EC89A6881C3844EC006538A8 /* PBXContainerItemProxy */;
+		};
+		EC89A6941C3844EC006538A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC89A6721C3844EC006538A8 /* Easy Exercise */;
+			targetProxy = EC89A6931C3844EC006538A8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC89A67A1C3844EC006538A8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC89A67B1C3844EC006538A8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC89A67F1C3844EC006538A8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC89A6801C3844EC006538A8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC89A6991C3844ED006538A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC89A69A1C3844ED006538A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC89A69C1C3844ED006538A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Easy Exercise/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.datomi.Easy-Exercise";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EC89A69D1C3844ED006538A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Easy Exercise/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.datomi.Easy-Exercise";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EC89A69F1C3844ED006538A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Easy ExerciseTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.datomi.Easy-ExerciseTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Easy Exercise.app/Easy Exercise";
+			};
+			name = Debug;
+		};
+		EC89A6A01C3844ED006538A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Easy ExerciseTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.datomi.Easy-ExerciseTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Easy Exercise.app/Easy Exercise";
+			};
+			name = Release;
+		};
+		EC89A6A21C3844ED006538A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Easy ExerciseUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.datomi.Easy-ExerciseUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Easy Exercise";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		EC89A6A31C3844ED006538A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Easy ExerciseUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.datomi.Easy-ExerciseUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Easy Exercise";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC89A66E1C3844EC006538A8 /* Build configuration list for PBXProject "Easy Exercise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC89A6991C3844ED006538A8 /* Debug */,
+				EC89A69A1C3844ED006538A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC89A69B1C3844ED006538A8 /* Build configuration list for PBXNativeTarget "Easy Exercise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC89A69C1C3844ED006538A8 /* Debug */,
+				EC89A69D1C3844ED006538A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EC89A69E1C3844ED006538A8 /* Build configuration list for PBXNativeTarget "Easy ExerciseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC89A69F1C3844ED006538A8 /* Debug */,
+				EC89A6A01C3844ED006538A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EC89A6A11C3844ED006538A8 /* Build configuration list for PBXNativeTarget "Easy ExerciseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC89A6A21C3844ED006538A8 /* Debug */,
+				EC89A6A31C3844ED006538A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC89A66B1C3844EC006538A8 /* Project object */;
+}
