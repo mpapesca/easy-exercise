@@ -16,12 +16,95 @@
                     <view key="view" contentMode="scaleToFill" id="dDc-cr-eha">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Date" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tBx-Lq-D6q">
+                                <rect key="frame" x="269" y="133" width="63" height="39"/>
+                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="32"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gbd-ns-VMz">
+                                <rect key="frame" x="181" y="265" width="238" height="70"/>
+                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="48"/>
+                                <state key="normal" title="Get Started!">
+                                    <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="flipHorizontal" id="Yph-wo-1Ql"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Day of workout" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="utp-dL-Wfe">
+                                <rect key="frame" x="241" y="180" width="116" height="21"/>
+                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lZJ-dO-NrX">
+                                <rect key="frame" x="268" y="538" width="64" height="30"/>
+                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="15"/>
+                                <state key="normal" title="Add Meal">
+                                    <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Today's Total Calories" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MUp-Hu-K91">
+                                <rect key="frame" x="218" y="480" width="164" height="21"/>
+                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YkJ-GK-sZm">
+                                <rect key="frame" x="276" y="509" width="47" height="24"/>
+                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RQ2-77-tAh">
+                                <rect key="frame" x="189" y="382" width="221" height="51"/>
+                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="32"/>
+                                <state key="normal" title="Today's Workout">
+                                    <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Weekday" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qgN-Zy-Alv">
+                                <rect key="frame" x="207" y="67" width="186" height="58"/>
+                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="48"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="0.66666666669999997" blue="0.023529411760000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="YkJ-GK-sZm" firstAttribute="top" secondItem="MUp-Hu-K91" secondAttribute="bottom" constant="8" id="0qK-p5-bjI"/>
+                            <constraint firstItem="Duf-9c-kI4" firstAttribute="top" secondItem="lZJ-dO-NrX" secondAttribute="bottom" constant="32" id="32c-Tp-XTj"/>
+                            <constraint firstItem="RQ2-77-tAh" firstAttribute="top" secondItem="Gbd-ns-VMz" secondAttribute="bottom" constant="47" id="GCi-cL-wgl"/>
+                            <constraint firstItem="Gbd-ns-VMz" firstAttribute="centerX" secondItem="dDc-cr-eha" secondAttribute="centerX" id="ItG-wR-m59"/>
+                            <constraint firstItem="Gbd-ns-VMz" firstAttribute="centerY" secondItem="dDc-cr-eha" secondAttribute="centerY" id="IuQ-A3-bHJ"/>
+                            <constraint firstItem="tBx-Lq-D6q" firstAttribute="centerX" secondItem="dDc-cr-eha" secondAttribute="centerX" id="Ooa-Ck-32H"/>
+                            <constraint firstItem="tBx-Lq-D6q" firstAttribute="top" secondItem="qgN-Zy-Alv" secondAttribute="bottom" constant="8" id="XM9-qq-L0G"/>
+                            <constraint firstItem="lZJ-dO-NrX" firstAttribute="top" secondItem="YkJ-GK-sZm" secondAttribute="bottom" constant="5" id="aOg-qM-Y04"/>
+                            <constraint firstItem="qgN-Zy-Alv" firstAttribute="centerX" secondItem="dDc-cr-eha" secondAttribute="centerX" id="coO-rG-RVp"/>
+                            <constraint firstItem="lZJ-dO-NrX" firstAttribute="centerX" secondItem="dDc-cr-eha" secondAttribute="centerX" id="e4V-Ze-xGA"/>
+                            <constraint firstItem="RQ2-77-tAh" firstAttribute="centerX" secondItem="dDc-cr-eha" secondAttribute="centerX" id="gxS-rj-2sb"/>
+                            <constraint firstItem="YkJ-GK-sZm" firstAttribute="centerX" secondItem="dDc-cr-eha" secondAttribute="centerX" id="jqA-nU-eWm"/>
+                            <constraint firstItem="utp-dL-Wfe" firstAttribute="centerX" secondItem="dDc-cr-eha" secondAttribute="centerX" id="oEq-xs-zWV"/>
+                            <constraint firstItem="utp-dL-Wfe" firstAttribute="top" secondItem="tBx-Lq-D6q" secondAttribute="bottom" constant="8" id="pzI-0Z-HtL"/>
+                            <constraint firstItem="MUp-Hu-K91" firstAttribute="centerX" secondItem="dDc-cr-eha" secondAttribute="centerX" id="qkV-cw-7EP"/>
+                            <constraint firstItem="qgN-Zy-Alv" firstAttribute="top" secondItem="46N-2W-1Ss" secondAttribute="bottom" constant="47" id="yNX-OK-w8C"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="addMealButton" destination="lZJ-dO-NrX" id="Mlj-9C-xUB"/>
+                        <outlet property="dailyCalories" destination="YkJ-GK-sZm" id="Qsd-od-K7P"/>
+                        <outlet property="dailyCaloriesTitle" destination="MUp-Hu-K91" id="MWs-9X-xE2"/>
+                        <outlet property="dateHeader" destination="tBx-Lq-D6q" id="YNV-xw-jOx"/>
+                        <outlet property="startButton" destination="Gbd-ns-VMz" id="h56-S0-9FD"/>
+                        <outlet property="weekDay" destination="qgN-Zy-Alv" id="BWW-XC-E0I"/>
+                        <outlet property="workoutDay" destination="utp-dL-Wfe" id="SRT-wU-Vej"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RJZ-L6-4oH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="284" y="-219"/>
+            <point key="canvasLocation" x="395" y="-231"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">

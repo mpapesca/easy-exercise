@@ -13,8 +13,7 @@ class StartWorkoutViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        setupLogo()
-        hideLogo()
+        animateLogo()
         showContent()
     }
     
@@ -28,22 +27,78 @@ class StartWorkoutViewController: UIViewController {
     
     /*** Create and hide logo programmatically here. ***/
     
-    func setupLogo() { //Add logo to view to match launch screen image.
+    func animateLogo() { //Add logo to view to match launch screen image then fade it out.
         
         logoImage = UIImage(named: "EZ_EX_app_icon")
         logoView = UIImageView(image: logoImage)
         logoView.center = CGPoint(x: view.bounds.width/2, y: view.bounds.height/2)
         view.addSubview(logoView)
-    }
-    
-    func hideLogo() { //Fade logo out to allow content to be displayed.
+        
+        
         UIView.animateWithDuration(0.5) { () -> Void in
             self.logoView.alpha = 0.0
         }
         logoView.removeFromSuperview()
     }
     
-    func showContent() {
+    
+    
+    func showContent() { //Fade in content of this view
+        //TODO: show content
+        setupContent()
+        
+        UIView.animateWithDuration(0.5) { () -> Void in
+            self.dateHeader.alpha = 1.0
+            self.startButton.alpha = 1.0
+            self.workoutDay.alpha = 1.0
+            self.dailyCalories.alpha = 1.0
+            self.dailyCaloriesTitle.alpha = 1.0
+            self.addMealButton.alpha = 1.0
+        }
+    }
+    
+    @IBOutlet weak var dateHeader: UILabel!
+    @IBOutlet weak var startButton: UIButton!
+    @IBOutlet weak var workoutDay: UILabel!
+    @IBOutlet weak var dailyCaloriesTitle: UILabel!
+    @IBOutlet weak var dailyCalories: UILabel!
+    @IBOutlet weak var addMealButton: UIButton!
+    @IBOutlet weak var weekDay: UILabel!
+    
+    func setupContent() {
+        dateHeader.alpha = 0.0
+        let date = NSDate()
+        let formatter = NSDateFormatter()
+        formatter.dateStyle = NSDateFormatterStyle.LongStyle
+        let dateString = formatter.stringFromDate(date)
+        
+        dateHeader.text = dateString
+        
+        startButton.alpha = 0.0
+        
+        workoutDay.text = "Day 3 of 48"
+        workoutDay.alpha = 0.0
+        
+        dailyCaloriesTitle.alpha = 0.0
+        
+        dailyCalories.text = "1563/2000"
+        dailyCalories.alpha = 0.0
+        
+        addMealButton.alpha = 0.0
+        
         
     }
+    
+//    func getDayOfWeek(today:String)->Int {
+//        
+//        let formatter  = NSDateFormatter()
+//        formatter.dateFormat = "yyyy-MM-dd"
+//        let todayDate = formatter.dateFromString(today)!
+//        let myCalendar = NSCalendar(calendarIdentifier: NSCalendarIdentifierGregorian)!
+//        let myComponents = myCalendar.components(.Weekday, fromDate: todayDate)
+//        let weekDay = myComponents.weekday
+//        return weekDay
+//    }
+    
+    
 }
