@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  WorkoutTimerViewController.swift
 //  Easy Exercise
 //
 //  Created by Michael Papesca on 1/2/16.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class WorkoutTimerViewController: UIViewController {
 
     @IBOutlet weak var timerLabel: UILabel!
     var time = 1000.0

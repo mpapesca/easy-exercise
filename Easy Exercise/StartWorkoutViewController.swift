@@ -54,6 +54,7 @@ class StartWorkoutViewController: UIViewController {
             self.dailyCalories.alpha = 1.0
             self.dailyCaloriesTitle.alpha = 1.0
             self.addMealButton.alpha = 1.0
+            self.weekDay.alpha = 1.0
         }
     }
     
@@ -76,7 +77,7 @@ class StartWorkoutViewController: UIViewController {
         
         startButton.alpha = 0.0
         
-        workoutDay.text = "Day 3 of 48"
+        workoutDay.text = "Day 3 of 60"
         workoutDay.alpha = 0.0
         
         dailyCaloriesTitle.alpha = 0.0
@@ -86,7 +87,48 @@ class StartWorkoutViewController: UIViewController {
         
         addMealButton.alpha = 0.0
         
+        weekDay.alpha = 0.0
         
+        
+        let dayOfTheWeek = getDayOfWeek()!
+        
+        switch dayOfTheWeek {
+        case 1:
+            weekDay.text = "Sunday"
+            break;
+        case 2:
+            weekDay.text = "Monday"
+            break;
+        case 3:
+            weekDay.text = "Tuesday"
+            break;
+        case 4:
+            weekDay.text = "Wednesday"
+            break;
+        case 5:
+            weekDay.text = "Thursday"
+            break;
+        case 6:
+            weekDay.text = "Friday"
+            break;
+        case 7:
+            weekDay.text = "Saturday"
+            break;
+        default:
+            break;
+        }
+        
+        
+    }
+    
+    func getDayOfWeek()->Int? {
+        
+        
+        let todayDate = NSDate()
+        let myCalendar = NSCalendar(calendarIdentifier: NSCalendarIdentifierGregorian)!
+        let myComponents = myCalendar.components(.Weekday, fromDate: todayDate)
+        let weekDay = myComponents.weekday
+        return weekDay
     }
     
 //    func getDayOfWeek(today:String)->Int {
